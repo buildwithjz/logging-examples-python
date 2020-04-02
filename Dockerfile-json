@@ -1,0 +1,10 @@
+FROM python:3
+
+WORKDIR /usr/src/app
+
+COPY requirements-json.txt ./
+RUN pip install --no-cache-dir -r requirements-json.txt
+
+COPY . .
+
+CMD [ "python", "./logger-json.py" ]
