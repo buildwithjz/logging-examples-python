@@ -18,6 +18,9 @@ This comes from just using the standard logging library in Python
 
 This comes from this article: https://blog.sneawo.com/blog/2017/07/28/json-logging-in-python/ and just uses the "structlog" and "python-json-logger" libraries
 
-## ECS Json exampl
+## ECS Json example
 
-This comes from https://pypi.org/project/kubi-ecs-logger/ and uses that library
+This example uses the "ecs_logging" module:
+
+* https://github.com/elastic/ecs-logging-python
+* https://pypi.org/project/ecs-logging/
