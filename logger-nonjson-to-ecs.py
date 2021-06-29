@@ -13,5 +13,5 @@ handler.setFormatter(ecs_logging.StdlibFormatter())
 logger.addHandler(handler)
 
 while(True):
-    logger.debug("Hello World!", extra={"tags":["test_tag"]})
+    logger.debug("Hello World!", extra={"tags":["test_tag"],"labels":{"test_label_key":"test_label_value"}})
     time.sleep(1)

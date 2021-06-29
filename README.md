@@ -20,6 +20,8 @@ This comes from this article: https://blog.sneawo.com/blog/2017/07/28/json-loggi
 
 ## ECS Json example
 
+The script logger-nonjson-to-ecs.py writes string/non-json log messages into the Elastic Common Schema JSON format (under the message key), and inserts tags and labels into the log output.
+
 This example uses the "ecs_logging" module:
 
 * https://github.com/elastic/ecs-logging-python
